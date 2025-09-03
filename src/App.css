@@ -1,0 +1,70 @@
+/* App.css */
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text for contrast */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e; /* Dark container background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #e0e0e0; /* Light color for headings */
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #00888f; /* Keep the teal background */
+  color: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #6f0000; /* Darker hover effect */
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #2c2c2c; /* Darker input background */
+  color: #e0e0e0; /* Light text in input */
+  text-align: center;
+}
+
+button {
+  background: #00888f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00696f; /* Darker hover effect */
+}
